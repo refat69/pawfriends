@@ -83,84 +83,64 @@
 	text-align: center;
 	text-transform: uppercase;
 }
-   #working {
-    padding-top: 100px;
+#Products {
+    padding-top: 200px;
   }
-  .left img {
-    overflow: hidden;
-    width: 100%;
+  .product {
+    padding-top: 60px;
   }
-  .left h4 {
-    font-size: 28px;
-    font-weight: 700;
-    padding-top: 30px;
-  }
-  .left p {
-    padding-top: 30px;
-    color: #8f9093;
-  }
-  .read-more a {
+  .product p {
     color: #f04336;
-    font-size: 20px;
+    font-size: 25px;
   }
-  .middle img {
-    width: 100%;
-    padding-bottom: 20px;
+  .card {
+    position: relative;
   }
-  .middle i {
-    color: #f04336;
+  .text-icon {
+    opacity: 0;
   }
-  .middle p {
-    padding-top: 20px;
-    color: #8f9093;
+  .text-icon:hover {
+    opacity: 1;
+    transition: 1s;
   }
-  .right {
-    background: url(../images/working-three.jpg) no-repeat center / cover;
-    padding: 20px 50px 50px;
-  }
-  .right h2 {
-    font-size: 35px;
-    font-weight: 700;
-  }
-  .right p {
-    padding: 10px 0;
-    color: #8f9093;
-    letter-spacing: 1px;
-  }
-  .red {
-    color: #f04336;
-    font-size: 20px;
-    background: #fff;
-    padding: 10px 20px;
-  }
-  .btn-two a {
-    padding: 15px 30px;
+  .text-icon h4 {
+    position: absolute;
+    top: 30%;
+    left: 23%;
     background: #f04336;
+    padding: 10px 15px;
     color: #fff;
+  }
+  .text-icon .card-icon {
+    position: absolute;
+    bottom: 33%;
+    left: 30%;
+  }
+  .card-icon i {
     font-size: 20px;
+    margin-left: 20px;
+    padding: 6px;
+    color: #f04336;
+  }
+  .card-icon i:hover {
+    background-color: #f04336;
+    padding: 6px;
+    color: #fff;
+  }
+  .text-icon h4:hover {
+    opacity: 1;
+    transition: 1s;
+  }
+  .card {
+    --bs-card-bg: transparent;
+    border: none;
+  }
+  .card-body h5 {
+    font-size: 30px;
     font-weight: 600;
   }
-  #location{
-    margin-top: 100px;
-    background: #f04336;
-    padding: 60px 0;
-  }
-  .location-header h1{
+  .card-body{
     text-align: center;
-    color:#fff;
-    font-size: 50px;
-    font-weight: 800;
-    padding-bottom: 60px;
-  }
-  .address{
-    text-align: center;
-    color: #fff;
-  }
-  .address h3{
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-top: 20px;
   }
   #footer {
     padding-top: 100px;

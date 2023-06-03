@@ -83,85 +83,38 @@
 	text-align: center;
 	text-transform: uppercase;
 }
-   #working {
-    padding-top: 100px;
-  }
-  .left img {
-    overflow: hidden;
-    width: 100%;
-  }
-  .left h4 {
-    font-size: 28px;
-    font-weight: 700;
-    padding-top: 30px;
-  }
-  .left p {
-    padding-top: 30px;
-    color: #8f9093;
-  }
-  .read-more a {
-    color: #f04336;
-    font-size: 20px;
-  }
-  .middle img {
-    width: 100%;
-    padding-bottom: 20px;
-  }
-  .middle i {
-    color: #f04336;
-  }
-  .middle p {
-    padding-top: 20px;
-    color: #8f9093;
-  }
-  .right {
-    background: url(../images/working-three.jpg) no-repeat center / cover;
-    padding: 20px 50px 50px;
-  }
-  .right h2 {
-    font-size: 35px;
-    font-weight: 700;
-  }
-  .right p {
-    padding: 10px 0;
-    color: #8f9093;
-    letter-spacing: 1px;
-  }
-  .red {
-    color: #f04336;
-    font-size: 20px;
-    background: #fff;
-    padding: 10px 20px;
-  }
-  .btn-two a {
-    padding: 15px 30px;
-    background: #f04336;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  #location{
-    margin-top: 100px;
-    background: #f04336;
-    padding: 60px 0;
-  }
-  .location-header h1{
-    text-align: center;
-    color:#fff;
-    font-size: 50px;
-    font-weight: 800;
-    padding-bottom: 60px;
-  }
-  .address{
-    text-align: center;
-    color: #fff;
-  }
-  .address h3{
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-top: 20px;
-  }
+#blog {
+  padding-top: 100px;
+}
+.blog-header {
+  text-align: center;
+}
+.blog-header h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.blog-header p {
+  color: #8f9093;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.blog-main i {
+  color: #f04336;
+  font-size: 30px;
+}
+.blog-main p {
+  color: #8f9093;
+  letter-spacing: 1px;
+}
+.blog-main h5 {
+  font-size: 25px;
+}
+.blog-main h5:hover {
+  color: #f04336;
+}
   #footer {
     padding-top: 100px;
   }
