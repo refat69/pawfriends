@@ -39,7 +39,7 @@
   @media (max-width: 768px) { 
     .navbar{
       background: transparent !important;
-      margin-top: 0 !important;
+      margin-top:-20px;
       z-index: 9;
     }
     .navbar-collapse {
